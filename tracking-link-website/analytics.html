@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics - TrackLinks</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-link text-indigo-600 text-2xl"></i>
+                        <a href="index.html" class="ml-2 text-xl font-bold text-gray-800">TrackLinks</a>
+                    </div>
+                    <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                        <a href="index.html" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            Dashboard
+                        </a>
+                        <a href="create.html" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            Create Link
+                        </a>
+                        <a href="analytics.html" class="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            Analytics
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- Search Section -->
+        <div class="bg-white shadow sm:rounded-lg mb-8">
+            <div class="px-4 py-5 sm:p-6">
+                <h3 class="text-lg leading-6 font-medium text-gray-900">
+                    View Link Analytics
+                </h3>
+                <div class="mt-2 max-w-xl text-sm text-gray-500">
+                    <p>Enter your tracking code to view detailed analytics.</p>
+                </div>
+                <form id="analyticsForm" class="mt-5 sm:flex sm:items-center">
+                    <div class="w-full sm:max-w-xs">
+                        <label for="trackingCode" class="sr-only">Tracking Code</label>
+                        <input type="text" name="trackingCode" id="trackingCode" required
+                            class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
+                            placeholder="Enter tracking code">
+                    </div>
+                    <button type="submit"
+                        class="mt-3 w-full inline-flex items-center justify-center px-4 py-2 border border-transparent shadow-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                        View Analytics
+                        <i class="fas fa-chart-bar ml-2"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Analytics Dashboard (Hidden by default) -->
+        <div id="analyticsDashboard" class="hidden">
+            <!-- Overview Stats -->
+            <div class="mb-8">
+                <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
+                    <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6">
+                        <dt class="text-sm font-medium text-gray-500 truncate">
+                            Total Visits
+                        </dt>
+                        <dd class="mt-1 text-3xl font-semibold text-gray-900" id="totalVisits">
+                            0
+                        </dd>
+                    </div>
+                    <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6">
+                        <dt class="text-sm font-medium text-gray-500 truncate">
+                            Unique Locations
+                        </dt>
+                        <dd class="mt-1 text-3xl font-semibold text-gray-900" id="uniqueLocations">
+                            0
+                        </dd>
+                    </div>
+                    <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6">
+                        <dt class="text-sm font-medium text-gray-500 truncate">
+                            Last Visit
+                        </dt>
+                        <dd class="mt-1 text-3xl font-semibold text-gray-900" id="lastVisit">
+                            -
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+
+            <!-- Link Details -->
+            <div class="bg-white shadow overflow-hidden sm:rounded-lg mb-8">
+                <div class="px-4 py-5 sm:px-6">
+                    <h3 class="text-lg leading-6 font-medium text-gray-900">
+                        Link Information
+                    </h3>
+                </div>
+                <div class="border-t border-gray-200">
+                    <dl>
+                        <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                                Tracking Code
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2" id="linkTrackingCode">
+                                -
+                            </dd>
+                        </div>
+                        <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                                Destination URL
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2" id="linkDestinationUrl">
+                                -
+                            </dd>
+                        </div>
+                        <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                                Created Date
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2" id="linkCreatedDate">
+                                -
+                            </dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+
+            <!-- Visit History -->
+            <div class="bg-white shadow overflow-hidden sm:rounded-lg">
+                <div class="px-4 py-5 sm:px-6">
+                    <h3 class="text-lg leading-6 font-medium text-gray-900">
+                        Visit History
+                    </h3>
+                    <p class="mt-1 max-w-2xl text-sm text-gray-500">
+                        Detailed log of all visits to this link.
+                    </p>
+                </div>
+                <div class="border-t border-gray-200">
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Date & Time
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Location
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Accuracy
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Device Info
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="visitHistory" class="bg-white divide-y divide-gray-200">
+                                <!-- Visit history will be populated here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Message (Hidden by default) -->
+        <div id="errorMessage" class="rounded-md bg-red-50 p-4 hidden">
+            <div class="flex">
+                <div class="flex-shrink-0">
+                    <i class="fas fa-exclamation-circle text-red-400"></i>
+                </div>
+                <div class="ml-3">
+                    <h3 class="text-sm font-medium text-red-800">
+                        Error Loading Analytics
+                    </h3>
+                    <div class="mt-2 text-sm text-red-700">
+                        <p id="errorText"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Function to format date
+        function formatDate(dateString) {
+            const options = { 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            };
+            return new Date(dateString).toLocaleDateString(undefined, options);
+        }
+
+        // Function to update analytics dashboard
+        function updateDashboard(data) {
+            // Update overview stats
+            document.getElementById('totalVisits').textContent = data.visits.length;
+            document.getElementById('uniqueLocations').textContent = new Set(
+                data.visits
+                    .filter(visit => visit.latitude && visit.longitude)
+                    .map(visit => `${visit.latitude},${visit.longitude}`)
+            ).size;
+            document.getElementById('lastVisit').textContent = data.visits.length > 0 
+                ? formatDate(data.visits[data.visits.length - 1].timestamp)
+                : '-';
+
+            // Update link information
+            document.getElementById('linkTrackingCode').textContent = data.trackingCode;
+            document.getElementById('linkDestinationUrl').textContent = data.destinationUrl;
+            document.getElementById('linkCreatedDate').textContent = formatDate(data.createdAt);
+
+            // Update visit history
+            const visitHistory = document.getElementById('visitHistory');
+            visitHistory.innerHTML = '';
+
+            data.visits.reverse().forEach(visit => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                        ${formatDate(visit.timestamp)}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        ${visit.latitude && visit.longitude 
+                            ? `${visit.latitude.toFixed(6)}, ${visit.longitude.toFixed(6)}`
+                            : 'Location not provided'}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        ${visit.accuracy ? `±${visit.accuracy.toFixed(0)}m` : '-'}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        ${visit.userAgent || '-'}
+                    </td>
+                `;
+                visitHistory.appendChild(row);
+            });
+        }
+
+        // Form submission handler
+        document.getElementById('analyticsForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const trackingCode = document.getElementById('trackingCode').value;
+            const analyticsDashboard = document.getElementById('analyticsDashboard');
+            const errorMessage = document.getElementById('errorMessage');
+
+            try {
+                const response = await fetch(`/api/analytics/${trackingCode}`);
+                
+                if (!response.ok) {
+                    throw new Error('Failed to load analytics data');
+                }
+
+                const data = await response.json();
+                
+                // Show dashboard and hide error
+                analyticsDashboard.classList.remove('hidden');
+                errorMessage.classList.add('hidden');
+                
+                // Update dashboard with data
+                updateDashboard(data);
+
+            } catch (error) {
+                // Show error and hide dashboard
+                analyticsDashboard.classList.add('hidden');
+                errorMessage.classList.remove('hidden');
+                document.getElementById('errorText').textContent = error.message;
+            }
+        });
+
+        // Check for tracking code in URL parameters
+        window.addEventListener('load', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const trackingCode = urlParams.get('code');
+            
+            if (trackingCode) {
+                document.getElementById('trackingCode').value = trackingCode;
+                document.getElementById('analyticsForm').dispatchEvent(new Event('submit'));
+            }
+        });
+    </script>
+</body>
+</html>
