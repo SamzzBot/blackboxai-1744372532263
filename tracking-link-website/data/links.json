@@ -1,0 +1,306 @@
+{
+  "links": {
+    "0MUS81": {
+      "destinationUrl": "https://www.instagram.com/reel/DIP50khPQM3/?igsh=MWRmMnFkNmJ6YXM5cg==",
+      "createdAt": "2025-04-11T12:10:19.978036",
+      "visits": [
+        {
+          "timestamp": "2025-04-11T12:11:25.548939",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1",
+          "latitude": -0.315449511208701,
+          "longitude": 103.17089165611681,
+          "accuracy": 8.537654729661766,
+          "locationDenied": false
+        },
+        {
+          "timestamp": "2025-04-11T12:14:22.195159",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": -0.3180593,
+          "longitude": 103.1683312,
+          "accuracy": 100,
+          "locationDenied": false
+        },
+        {
+          "timestamp": "2025-04-11T14:08:25.295406",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T14:09:04.000862",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T15:45:28.094177",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T15:46:03.057650",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T15:55:52.373416",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1",
+          "latitude": -0.3154514074305385,
+          "longitude": 103.17089103047022,
+          "accuracy": 28.145761207442796,
+          "locationDenied": false
+        },
+        {
+          "timestamp": "2025-04-12T11:19:07.348725",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1",
+          "latitude": -0.3154453296833607,
+          "longitude": 103.17089494005073,
+          "accuracy": 6.799796307459215,
+          "locationDenied": false
+        },
+        {
+          "timestamp": "2025-04-12T11:19:25.183574",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1",
+          "latitude": -0.31544457000395587,
+          "longitude": 103.17089542872324,
+          "accuracy": 11.455802691377498,
+          "locationDenied": false
+        }
+      ]
+    },
+    "instagram": {
+      "destinationUrl": "https://www.instagram.com/reel/DE9edh2v1nR/?igsh=MTJ6ZTF3cTAwYmdtdA==",
+      "createdAt": "2025-04-11T12:35:28.032452",
+      "visits": [
+        {
+          "timestamp": "2025-04-11T13:39:09.605262",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T13:43:38.406580",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T13:51:30.020022",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T14:06:50.582187",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T14:07:20.863213",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T15:23:34.230393",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T15:25:44.451944",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T15:42:42.433662",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T15:43:55.142774",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T15:55:34.777554",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": -0.3251404,
+          "longitude": 103.1567571,
+          "accuracy": 15.845999717712402,
+          "locationDenied": false
+        },
+        {
+          "timestamp": "2025-04-11T16:02:31.341806",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 12; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.135 Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T16:04:50.169035",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 12; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.135 Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        }
+      ]
+    },
+    "instagramfunnymoment": {
+      "destinationUrl": "https://www.instagram.com/reel/DE9edh2v1nR/?igsh=MTJ6ZTF3cTAwYmdtdA==",
+      "createdAt": "2025-04-11T12:35:40.771089",
+      "visits": [
+        {
+          "timestamp": "2025-04-11T12:38:37.158543",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": -0.3165513,
+          "longitude": 103.168943,
+          "accuracy": 19.979000091552734,
+          "locationDenied": false
+        },
+        {
+          "timestamp": "2025-04-11T12:43:07.214353",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T12:44:52.871511",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-11T12:44:53.857356",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-12T11:08:00.219254",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-12T11:32:32.966882",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-12T11:53:30.587351",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-12T11:54:05.097281",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        },
+        {
+          "timestamp": "2025-04-12T12:20:07.831777",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+          "latitude": -5.1437,
+          "longitude": 119.4263,
+          "accuracy": 1000,
+          "locationDenied": false
+        },
+        {
+          "timestamp": "2025-04-14T11:08:28.505563",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "latitude": null,
+          "longitude": null,
+          "accuracy": null,
+          "locationDenied": true
+        }
+      ]
+    },
+    "Thema panel": {
+      "destinationUrl": "https://youtu.be/wtk3UhuVRh0?si=gC-2JyumcbeZ5KwD",
+      "createdAt": "2025-04-12T11:40:09.662448",
+      "visits": []
+    }
+  }
+}
